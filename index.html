@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An0nv33r Certificates - Gallery</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="/files/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="full" id="fullImgBox">
+        <img src="#" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="images">
+        <img src="files/1_IBM_Professional_Cyber.jpg" onclick="openFullImg(this.src)">
+        <img src="files/CompTIA IT Fundamentals+ (FC0-U61).jpg" onclick="openFullImg(this.src)">
+        <img src="files/Linux Essentials.jpg" onclick="openFullImg(this.src)">
+        <img src="files/2_Ethical_CodeRed.png" onclick="openFullImg(this.src)">
+        <img src="files/3_SAP.jpg" onclick="openFullImg(this.src)">
+        <img src="files/4_Build.jpg" onclick="openFullImg(this.src)">
+        <img src="files/5_Humari Pehchan NGO.jpg" onclick="openFullImg(this.src)">
+        <img src="files/6_TogetherV.jpg" onclick="openFullImg(this.src)">
+        <img src="files/7_White-Hat-Hacker.jpg" onclick="openFullImg(this.src)">
+        <img src="files/8_Cyber Security Foundation - CSFPC™.jpg" onclick="openFullImg(this.src)">
+        <img src="files/9_NSE_1_Certification.jpg" onclick="openFullImg(this.src)">
+        <img src="files/10_Python.jpg" onclick="openFullImg(this.src)">
+        <img src="files/12_C-and-Cpp-Participant-Certificate.jpg" onclick="openFullImg(this.src)">
+        <img src="files/11_Python Data Science-Last.jpg" onclick="openFullImg(this.src)">
+        <img src="files/An0nv33r.jpg" onclick="openFullImg(this.src)">
+        <!-- <img src="" onclick="openFullImg(this.src)"> -->
+    </div>
+    <script>
+
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+        function openFullImg(pic) {
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+
+        function closeFullImg() {
+            fullImgBox.style.display = "none";
+        }
+
+    </script>
+</body>
+
+</html>
